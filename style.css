@@ -1,0 +1,42 @@
+/*  HSL COLORS */
+/* CSS VARIABLES  */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg_color);
+}
+.con{
+    max-width: 1140px;
+    margin: 20px auto;
+    padding: 12px;
+}
+:root{
+    --primary_color:rgb(223, 111, 14);
+    --text-color:#000;
+    --bg_color:#fff;
+}
+.dark_mode{
+    --primary_color:rgb(223, 111, 14);
+    --text-color:#fff;
+    --bg_color:#000;
+}
+
+h2{
+    color:var(--primary_color);
+    text-align: left;
+}
+p{
+    text-align: left;
+    padding-top: 10px;
+    font-size: 19px;
+    color: var(--text-color);
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: var(--primary_color);
+    color: #fff;
+}
